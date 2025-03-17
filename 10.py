@@ -21,29 +21,3 @@ while True:
         print("Computer wins!")
         comp_score += 1
     print("Score - You:", user_score, "Computer:", comp_score)
-
-if __name__ == "__main__":
-    print("Choose a problem (1-10):")
-    choice = int(input())
-    if choice == 1:
-        check_number()
-    elif choice == 2:
-        even_or_odd()
-    elif choice == 3:
-        grade_score()
-    elif choice == 4:
-        largest_number()
-    elif choice == 5:
-        leap_year()
-    elif choice == 6:
-        calculator()
-    elif choice == 7:
-        bmi_calculator()
-    elif choice == 8:
-        triangle_type()
-    elif choice == 9:
-        login_system()
-    elif choice == 10:
-        rock_paper_scissors()
-    else:
-        print("Invalid choice")
